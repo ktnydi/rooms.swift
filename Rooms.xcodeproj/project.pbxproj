@@ -13,6 +13,9 @@
 		8BD91C02238BC33600F95B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD91C01238BC33600F95B63 /* Assets.xcassets */; };
 		8BD91C05238BC33600F95B63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD91C04238BC33600F95B63 /* Preview Assets.xcassets */; };
 		8BD91C08238BC33600F95B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD91C06238BC33600F95B63 /* LaunchScreen.storyboard */; };
+		8BD91C10238C186D00F95B63 /* RoomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD91C0F238C186D00F95B63 /* RoomData.swift */; };
+		8BD91C12238C1ED800F95B63 /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD91C11238C1ED800F95B63 /* RoomDetail.swift */; };
+		8BD91C14238DECB500F95B63 /* RoomStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD91C13238DECB500F95B63 /* RoomStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8BD91C04238BC33600F95B63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BD91C07238BC33600F95B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BD91C09238BC33600F95B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD91C0F238C186D00F95B63 /* RoomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomData.swift; sourceTree = "<group>"; };
+		8BD91C11238C1ED800F95B63 /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		8BD91C13238DECB500F95B63 /* RoomStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		8BD91BFA238BC32E00F95B63 /* Rooms */ = {
 			isa = PBXGroup;
 			children = (
+				8BD91C0F238C186D00F95B63 /* RoomData.swift */,
 				8BD91BFB238BC32E00F95B63 /* AppDelegate.swift */,
 				8BD91BFD238BC32E00F95B63 /* SceneDelegate.swift */,
 				8BD91BFF238BC32E00F95B63 /* ContentView.swift */,
+				8BD91C13238DECB500F95B63 /* RoomStore.swift */,
+				8BD91C11238C1ED800F95B63 /* RoomDetail.swift */,
 				8BD91C01238BC33600F95B63 /* Assets.xcassets */,
 				8BD91C06238BC33600F95B63 /* LaunchScreen.storyboard */,
 				8BD91C09238BC33600F95B63 /* Info.plist */,
@@ -146,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD91C12238C1ED800F95B63 /* RoomDetail.swift in Sources */,
+				8BD91C10238C186D00F95B63 /* RoomData.swift in Sources */,
 				8BD91BFC238BC32E00F95B63 /* AppDelegate.swift in Sources */,
 				8BD91BFE238BC32E00F95B63 /* SceneDelegate.swift in Sources */,
+				8BD91C14238DECB500F95B63 /* RoomStore.swift in Sources */,
 				8BD91C00238BC32E00F95B63 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
